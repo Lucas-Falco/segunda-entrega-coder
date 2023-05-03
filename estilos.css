@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box  ;*/
+}
+
+@font-face {
+    font-family: kozuka;
+    src: url(./FONTS/Kozuka\ Gothic\ Pro\ R.otf);
+}
+
+.navbar {
+    font-family: kozuka;
+    background-color: black;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.navbar-toggler {
+    font-size: 25px;
+}
+
+.navbar-nav {
+    font-size: 25px;
+}
+
+.nav-item {
+    padding-left: 30px;
+    font-family: kozuka;
+}
+/*PANTALLA HOME INICIO*/
+main {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    background-image: url(./IMAGENES/fondo.jpg);
+}
+
+.fondo {
+    height: 100%;
+    width: auto;
+    background-image: url(./IMAGENES/fondonegro.jpg);
+    background-attachment: fixed;
+}
+
+.llamado {
+    width: 40%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid white;
+    float: right;
+    margin: 20px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: yellowgreen;
+    text-transform: capitalize;
+    font-family: kozuka;
+}
+/*PANTALLA HOME FIN*/
+
+/*PANTALLA NOSOTROS INCIO*/
+.nosotros {
+    width: 99%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: 5px solid white;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    font-family: kozuka;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.galeria .card {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.card {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.664);
+    border: 3px solid white;
+    box-sizing: border-box;
+    color: white;
+    font-family: kozuka;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.card-img {
+    height: 200px;
+    width: auto;
+    background-color: rgb(236, 229, 229);
+    background-size: cover;
+    background-position: center;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.item1 .card-img {
+    background-image: url(./IMAGENES/fotos/1napolitana.jpg);
+}
+
+.item2 .card-img {
+    background-image: url(./IMAGENES/fotos/2especial.jpg);
+}
+
+.item3 .card-img {
+    background-image: url(./IMAGENES/fotos/3panceta.jpeg);
+}
+
+.item4 .card-img {
+    background-image: url(./IMAGENES/fotos/4anan.jpg)
+}
+
+.item5 .card-img {
+    background-image: url(./IMAGENES/fotos/5papaYhuevo.jpg);
+}
+
+.item6 .card-img {
+    background-image: url(./IMAGENES/fotos/6bruschettas.jpg);
+}
+
+.item7 .card-img {
+    background-image: url(./IMAGENES/fotos/7varios.jpg);
+}
+
+.item8 .card-img {
+    background-image: url(./IMAGENES/fotos/8sanwich_jcrudo.jpg);
+}
+
+.item9 .card-img {
+    background-image: url(./IMAGENES/fotos/9focaccia.jpg);
+}
+
+.item10 .card-img {
+    background-image: url(./IMAGENES/fotos/10sacramentos.jpeg);
+}
+
+.item11 .card-img {
+    background-image: url(./IMAGENES/fotos/11hambuguesitas.jpg);
+}
+
+.item12 .card-img {
+    background-image: url(./IMAGENES/fotos/12langostinos.jpeg);
+}
+/*PANTALLA NOSOTROS FIN*/
+
+
+/*PANTALLA SERVICOS INICIO*/
+ol {
+    list-style: disc;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    font-size: 16px;
+}
+
+#columnas {
+    column-count: 3;
+    column-gap: 50px;
+    text-align: start;
+    line-height: 1.7;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.425);
+    text-transform: uppercase;
+    font-family: kozuka;
+    border: 3px solid yellowgreen;
+    color: white;
+    padding: 10px;
+}
+
+section.cont {
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+}
+
+.item_pizzas {
+    height: auto;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.733);
+    border: 3px solid white;
+    line-height: 30px;
+    color: white;
+    font-family: kozuka;
+    text-transform: capitalize;
+    padding: 30px;
+}
+
+.cont2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.item_menu {
+    height: 250px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.733);
+    border: 3px solid white;
+    font-family: kozuka;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.cont3{
+    padding: 30px;
+}
+
+h3{
+    padding: 10px;
+}
+
+/*PANTALLA SERVICIOS FIN*/
+
+/*PANTALLA TAKEAWAY INICIO*/
+.fondo2 {
+    height: 80vh;
+    width: auto;
+    background-image: url(./IMAGENES/fondonegro.jpg);
+}
+
+/*PANTALLA TAKEAWAY FIN*/
+
+/*PANTALLA CONSULTAS INICIO*/
+
+form{
+    width: 600px;
+    height: 90%;
+    margin: auto;
+    background-color: rgba(110, 107, 107, 0.616);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+h4{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: kozuka;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea{
+    height: 250px;
+    width: 100%;
+}
+
+#boton{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*PANTALLA CONSULTAS FIN*/
+
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.redes {
+    font-size: 50px;
+    letter-spacing: 50px;
+}
